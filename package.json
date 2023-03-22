@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "babel-loader": "^9.1.2",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2",
+    "uuid": "^9.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "build": "npx webpack"
+  },
+  "name": "08-js-service-calls",
+  "description": "* start from the up-to-date main branch (`git checkout main; git pull origin main`)\r * Create a feature branch named 'js-service-calls' (`git checkout -b js-service-calls`)\r * Add and Modify the files in this directory to have the require features\r * Add, commit, and push the branch to github\r * Create a PR to merge to main\r * Be sure to include the TA(s) and I as reviewers.  \r * Due by **Sun Mar 12 11:59pm (PT)**",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "webpack": "^5.76.1",
+    "webpack-cli": "^5.0.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
